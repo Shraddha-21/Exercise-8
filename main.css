@@ -1,0 +1,157 @@
+html{background-image: url("bats.gif");
+	background-repeat: repeat-y-x;}
+
+
+body {	font-family: "Verdana", Sans, Sans-serif; 
+	border: 3px solid black; 
+	box-shadow: 10px 10px 10px black;
+	margin: auto;
+	width:800px;
+	background-color: white;
+	padding: 100 px;}
+ 
+img{padding-right: 30px;}
+ 	      
+
+h1 { font-size: 200%;
+	color: black; }  
+
+
+
+header{ border: 2px solid black;
+	background-image: linear-gradient(45deg, white 0%, orange 65%, black 100%);}
+
+main{ padding: 15px 1.5em;}
+
+
+
+
+a:link { color: #FFA500;
+            font-weight: bold;}
+
+a:hover, a:focus { color: green}
+
+.sidebarA ul {
+  list-style-type: none;
+  margin: 0;
+  padding:0px;
+  width: 120px;
+  background-color: orange;
+    border: 2px solid black;
+}
+.sidebarA ul{
+    float: left;
+    margin-bottom: 453px;
+}
+.sidebarA li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.sidebarA li{
+    text-align: center;
+    border-bottom: 1px solid black;
+    }
+.sidebarA li:last-child{
+    border-bottom: none;
+}
+
+.sidebarA li a.active{
+    background-color: black;
+    color: white;
+}
+
+/* Change the link color on hover */
+.sidebarA li a:hover: not {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: orange;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+
+
+
+    
+
+------------------------------------------------------------------
+
+
+section{ width: 600px;
+        float: right;
+        align-content: center;
+        padding-bottom:30px;}
+
+label {
+    float: left;    
+    width: 6em;
+    text-align: right;}
+
+input {
+    width: 25em;
+    margin-left: 1em;
+    margin-bottom: .5em;}
+#button {
+    width: 10em;
+    margin-left: 7em;
+    background-color: orange;
+    border-color: black;}
+
+footer{border: 5px solid black;
+	background-image: linear-gradient(45deg, black 0%, orange 65%, white 100%);
+	text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
